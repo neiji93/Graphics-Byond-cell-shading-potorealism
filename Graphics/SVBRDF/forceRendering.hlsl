@@ -44,5 +44,19 @@ float4 getSVBRDFAsAModelledTexture(......)
  forceApproximateHighDimensionsWithRougness(......)
 }
 
+//we can create tools in order to prevent secure graphics with differential functiond.. From scratch,
+//we can say that we have to create a new kind of functions that is mathematically not a randomizer nor ....
+// We find then consciensousness ! This was my stuff at the cell architecture supercomputer repository.
+//then, let's try  this formula : L * E <= .... or L * E >=... to add electrical support.
+//Ohhh !!! This seems to be AI ! So, cool, we have to reject this formula in the other folder where I said to not use AI !
+//Notice that this formula is limited and this may belongs to no secure graphics but I have to push forward !
+float4 addElectricalSupportForAllTexxtures(.......)
+{
+
+
+ return....;
+}
+
+
 
 
