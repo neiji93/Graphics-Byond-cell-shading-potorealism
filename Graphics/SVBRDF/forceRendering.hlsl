@@ -58,6 +58,24 @@ float4 addElectricalSupportForAllTexxtures(.......)
  return....;
 }
 
+//we can extend the previous function to allow to work directly with SVBRDF (I'm not sure).
+//It can be usefull if we want to merge textures and reduce the memory usage
+float4 addElectricalSupportForAllTexxturesAfterMerge(.......)
+{
+ //how to merge several textures ? We have to use electricaal support function twice
+ //because we already used cos^2(x). It means that .... There is a way but I have to add other commands
+ //please remind that this is common process for example in direct lighting nowadays to use functions twice ! (2023)
+ float4 var1 = addElectricalSupportForAllTexxtures(....):
+ var1 = var1 + addElectricalSupportForAllTexxtures(.....);
+
+//other commands here
+
+
+
+ return ....;
+ 
+
+}
 
 
 
