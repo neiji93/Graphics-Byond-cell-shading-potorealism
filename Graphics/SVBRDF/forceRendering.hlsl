@@ -50,6 +50,7 @@ float4 getSVBRDFAsAModelledTexture(......)
 //then, let's try  this formula : L * E <= .... or L * E >=... to add electrical support.
 //Ohhh !!! This seems to be AI ! So, cool, we have to reject this formula in the other folder where I said to not use AI !
 //Notice that this formula is limited and this may belongs to no secure graphics but I have to push forward !
+//Previous stuffs from researchers can be mixed with it, but I'm not sure if you can create new mixed functions for technical artists !
 float4 addElectricalSupportForAllTexxtures(.......)
 {
 
