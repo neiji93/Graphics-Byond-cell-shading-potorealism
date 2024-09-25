@@ -37,4 +37,12 @@ BSDF = clamp(......); //in order to make it right, we have to clamp .....  and n
  return (cos(roughness)*cos(roughness)*BSDF;
 }
 
+//there must be a way. And modellined textures may be better and faster here and for next source code lines compared to sampling..hummm..
+float4 getSVBRDFAsAModelledTexture(......)
+{
+  forceClearcoatOnlyBasicReflexion(......)
+ forceApproximateHighDimensionsWithRougness(......)
+}
+
+
 
