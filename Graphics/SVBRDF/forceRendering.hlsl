@@ -78,4 +78,19 @@ float4 addElectricalSupportForAllTexxturesAfterMerge(.......)
 }
 
 
+//If we don't know many things of SVBRDF, we can approximate it with elecrrical terms mixing support because, as I said
+//super energy is not a weapon ! Inteeresting ! Let's use electricaal support function inside this function
+void approximateNotSecureSVBRDF(......)
+{
+
+//...
+= addElectricalSupportForAllTexxtures(....);
+//...
+
+
+}
+
+
+
+
 
