@@ -26,3 +26,15 @@ void forceClearcoatOnlyBasicReflexion( ........ )
 what = rand(clearcoat, clearcoatRoughness);
 return what;
 }
+
+
+//Those one waere made by scratch too and it is an esquisse for myself. it can be false
+void forceApproximateHighDimensionsWithRougness(....)
+{
+ //we can use roughness to add ambient lighting and in order to have a value that is both fast and secure
+//because the super energy is not a weapon (see readme.txt)
+BSDF = clamp(......); //in order to make it right, we have to clamp .....  and not direclty using texture modelling or texture sampling
+ return (cos(roughness)*cos(roughness)*BSDF;
+}
+
+
