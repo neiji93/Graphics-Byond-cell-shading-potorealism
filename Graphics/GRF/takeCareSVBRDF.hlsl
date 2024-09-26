@@ -28,7 +28,7 @@ void secureAutomorpheTransmissionCommands( ..... )
 //previous researchers works. In this case, although I told it spin, we have to forbid using
 //laws like p = m*g. As I already used heat mechanics in another project, radiance and irradiance
 //could be used here ! Where did I put those last formulas ? In my cell phone and I shared it with
-//a freelancer !
+//a freelancer ! This function is also usiefull to prevent using secure graphics methods all the time.
 void approximateSpinForIrradianceCachingAndDontUseLawsForIrradianceAndHeat(.....)
 {
 
