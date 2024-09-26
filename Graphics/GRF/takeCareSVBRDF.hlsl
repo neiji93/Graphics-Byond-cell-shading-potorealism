@@ -21,6 +21,37 @@ void secureAutomorpheTransmissionCommands( ..... )
   float h = ...... ; //sorry I used something from nuclearphysicsReality folder, but physically,
                     // this is possible to take a term that permit wide scale things with ....
 
+  //here we enforce in infinitesimal formulas. That means that we deal with irradiance or radiance.
+  //We saw it because we use another formula coming from nuclear physics. So, now, we will use common compositing for creating new passes
+  //that secure graphics for rendering equation instead of using path tracing.
+  ///and we will extract a texture later because h is not a data nor a spin nor fully nuclear subject !
+  ....
+
+
+  //to do secure graphics, h must fullfill derivatives for rendering equation that cancel shadow maps. Shadow maps can be used for rendering
+  //equation of kajiya but here, we have to cancel it. So, it means more rays for shadows. This will be very accurate !
+  //This behaviour is the same as seen in physic engines ! So, don't use Runge Kutta 4 method and use something
+  //radiance*h*I <= L* addElectricalSupport. This comes from scratch (spintronics from scratch and electrical support can be approximated
+  //to create an approximate textures). As spintronic contains h*I <= L* addElectricalSupport (from scratch)
+  //it cancel radiance, then the raytracer doesn't have to wonder about any rays !
+
+  //clamp radiance from super energy term to enhance hard edges (this is a pass - from scratch).
+  float3 result = clamp( radiance, 0, superenergyTerm);             //neutrinos can have zero mass but this is not finished yet
+  float3 result2 = clamp( result, addElectricalSupport(....), ...); //Let's take a formula taht can be cited in futur academic pdfs !
+                                                                    //it is not obvious because techniques and formulas are heavily expressed 
+                                                                    //interlinked. And the most common powerfull and most linked technique
+                                                                    //is techniques for dielectrics if I'm not wrong. So, let's approximate adddelectricalsupport.!
+                                                                    //approximate behaviour can be canceled by more rays is hard edges. 
+                                                                    //We turn around but it's perfect !
+                                                                    //this is not finished !
+  
+  if( radiance*h*I <= L* addElectricalSupport  )   //As i designed a supercomputer celles architecture
+              return  cacheTexture;                                                //I saw that logarithmic functions are also usefull !7  
+                                                                    //Then lets add a log pass in the GPU ! So, add a term in the previous inegalities 
+                                                                      //The log function can be a derivative for the created texture.
+                                                                    //Then, as this is supercomputer cells architecture, we have a cache that is not an approximate solution !
+                                                                      //from scratch, Im not sure !
+
 }
 
 
