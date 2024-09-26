@@ -24,5 +24,20 @@ void secureAutomorpheTransmissionCommands( ..... )
 }
 
 
+//The spin theory deosn t seem to be the largest thing that is usefull to understand and imagine
+//previous researchers works. In this case, although I told it spin, we have to forbid using
+//laws like p = m*g. As I already used heat mechanics in another project, radiance and irradiance
+//could be used here ! Where did I put those last formulas ? In my cell phone and I shared it with
+//a freelancer !
+void approximateSpinForIrradianceCachingAndDontUseLawsForIrradianceAndHeat(.....)
+{
+
+
+}
+
+
+
+
+
 
 
