@@ -16,3 +16,33 @@ void secureAutomorphTransmissionDropAutomorphismToOneHeatFormula(...)
 {
 
 }
+
+//Although we dont need this, it can be used to get similarities between textures then, in this folder,
+//technical artists works matter !
+void RK4_force_tiling(....)
+{
+
+}
+
+//let s use albedo
+void RK4_force_tiling_albbedo(....)
+{
+
+}
+
+//Then, after using albedo, we have to prevent using log (see GRF folder) because in the GRF folder,
+//we used the term I or L (???). L can have a meaning in UVs, then, it is best to have here a function with several commands
+//if the formula I cited is complicated. It doesn't mean to be fast to work but it needs a validating model because...
+void RK4_specialnextRK4_withoutTechnique_visible_validate(...)
+{
+
+
+}
+
+
+
+
+
+
+
+
