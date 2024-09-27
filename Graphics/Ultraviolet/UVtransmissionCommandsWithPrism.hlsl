@@ -30,6 +30,26 @@ void RK4_force_tiling_albbedo(....)
 
 }
 
+
+//as we used RK4 for tilling and as we used some GRF functions a little bit modified, it is not forbidden to have a lokkup table for radiance.
+//This means that gaussians are not suited here. Then, the best choice is to choose a distribution that is the more well suited for the new
+//formula we talked about in the first sentences in this file but a little bit modified ! Plus, in order to prevent having a new rendering technique,
+//let's try to add a physical term : albedo ! Why ? Because it is best to have a term coming from computer graphics than other fields I already used.
+//So, what formula can we do with albedo and the formula above ? for RK4, it is best to create a motion formula. Then, it means we will have more textures !
+//Fortunately, this is not a rendering technique ! I will create the formula above now : heat transfer from scratch + albedo implies> let's see my high school notes =>
+//tan( ... ) * m  = albedo implies> tan(...) * m => albedo * v.  v will be a lookup talble itself (coming from my high school notes - chimie).
+//As you must see, this term is linked with super energy term I created but I don't know the relatioship and I don't remember super energy formula !
+//Plu,s using tan function is not a common way in computer graphics nowadays ! ahahahaha!
+void raadianceCachingLookUpRK4-....)
+{
+
+
+}
+
+
+
+
+
 //Then, after using albedo, we have to prevent using log (see GRF folder) because in the GRF folder,
 //we used the term I or L (???). L can have a meaning in UVs, then, it is best to have here a function with several commands
 //if the formula I cited is complicated. It doesn't mean to be fast to work but it needs a validating model because...
