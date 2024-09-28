@@ -28,3 +28,10 @@ float3 tangentSpaceBTFForARenderingTecgnique( ... )
 
 }
 
+
+void applyDiracDeltaToBTForBTFTextures(....)
+{
+
+}
+
+
