@@ -1,6 +1,13 @@
 
 
+//void superEnergyWeaponize... impossible
+//but it let me had an idea
+void similaritiesTextureArraysWeaponize(....)
+{
+}
 
+//college notes
+void atmosphericScatteringIsomorph......
 
 void GRFToBSDF(....)
 {
