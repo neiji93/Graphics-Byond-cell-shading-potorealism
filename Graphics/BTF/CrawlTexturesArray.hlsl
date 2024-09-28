@@ -28,15 +28,24 @@ float3 tangentSpaceBTFForARenderingTecgnique( ... )
 
 }
 
-/*may be completely false. I will share the study later in researches maths fin 2024
+/*may be completely false. I will share the study later in researches maths fin 2024 */
 void applyDiracDeltaToBTForBTFTextures(....)
-{
-                    //U^2 * 0.5 = exp(1980y) 
+{							//0.5 is a currently a bad result. We have to fix it !
+							//Am I wrong ? hahaha
+							//U^2 * 0.5 = exp(1980y) 
 						        //et R^2 = ln(20x)      //la raison pour laquelle jai supprimer I est due a l ajout 
   //as usual, we can exit with a logarithm. This is a very old CG behaviour !
   //Unfortunately, at the moment, I failed to create functions only suitable for BTF ! But it's not finished !
   return log(result);
 
 }
+
+void useILogToCancelRoughness05(...)
+{
+  //i^2 will permit us to work on something that is no longer cosine or sinus !
+  log(...)
+}
+
+
 
 
