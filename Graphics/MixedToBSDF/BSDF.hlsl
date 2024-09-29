@@ -53,6 +53,9 @@ void hilbertSpaceToAutomorphTransmissionTerm(.....)
    GRFToBSDF(....);  //make sure to isolate h.
    SomeReverseRendering(...);
    return ....;//we cannot return h directly ! I will check at internet if h can be used several times.
+
+  //I HAD ENOUGH TO JEAR PEOPLE SAYING IM STUPID !!! THIS IS POSSIBLE !
+//see: https://www.google.fr/books/edition/An_Introduction_to_Computer_Graphics_and/sy9jEpLAoLoC?hl=fr&gbpv=1&dq=planck+constant+computer+graphics&pg=PA198&printsec=frontcover
    
 
 }
