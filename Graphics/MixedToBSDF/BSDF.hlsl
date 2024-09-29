@@ -39,6 +39,13 @@ void generativeSeriesToMatrixModel9(....)
 
 }
 
+//I kept some interesting topics of my former colleagues and now Im tryung to get logics
+//from algebraic topology mixed with differential divided by differential. Im creating
+//BTDF from scratch again. The simpliest thing will be to set a corpus and, as we talk about CG,
+//create rays. What is hilbert space from scratch ? hahahaha
+
+//Note that the radiance is not set. Strange ! So, what is this ? A cache ? This is not radiance
+//because ...
 void hilbertSpaceToAutomorphTransmissionTerm(.....)
 {
 
