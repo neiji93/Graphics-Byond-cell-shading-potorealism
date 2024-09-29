@@ -65,6 +65,19 @@ void hilbertSpaceToAutomorphTransmissionTexturesArrayWithoutRenderingTechnique(.
 
 }
 
+//We can use the alternative of point lights I designed but not finished yet !
+void propagateTransmission(...)
+{
+  //By scratch, complex numbers are a finite corpus. And we can take an arbitrary formula (completely arbitrary)
+  //to represent.... (I m not wrong but this is not physics yet !)
+  //So, lets drop exp and ln a little bit !
+  = x^3+cos(x^2)*3*i; //i belongs to complex numers.
+
+  //doing this above seems that we are working with textures  directly ! This makes sense ! Really good for BSDF !
+
+
+}
+
 void getCosineByClosedalgebraicSpaceComplexNumbers(...)
 {
 
