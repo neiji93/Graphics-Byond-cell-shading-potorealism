@@ -48,7 +48,7 @@ void generativeSeriesToMatrixModel9(....)
 //because ...
 void hilbertSpaceToAutomorphTransmissionTerm(.....)
 {
-
+   return h; //not stupid at the moment ! h is also something that I tested by time over time in my life.
 }
 
 void hilbertSpaceToAutomorphTransmissionTexturesArrayWithoutRenderingTechnique(.....)
