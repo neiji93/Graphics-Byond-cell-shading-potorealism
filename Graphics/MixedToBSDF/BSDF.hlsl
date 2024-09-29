@@ -49,6 +49,7 @@ void generativeSeriesToMatrixModel9(....)
 void hilbertSpaceToAutomorphTransmissionTerm(.....)
 {
    return h; //not stupid at the moment ! h is also something that I tested by time over time in my life.
+            //But if I use h too much time, it seems that this is the ambiant term. So, we will be forced to use reverse rendering later !
 }
 
 void hilbertSpaceToAutomorphTransmissionTexturesArrayWithoutRenderingTechnique(.....)
