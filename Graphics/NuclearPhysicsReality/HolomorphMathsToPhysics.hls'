@@ -1,0 +1,4 @@
+//we will maybe never have to cancel some rays.
+//then foebid clamping to zero for pbr materials
+//and non pbr materials. this can be used
+//elsewhere.
