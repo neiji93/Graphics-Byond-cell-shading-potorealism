@@ -8,6 +8,11 @@ void similaritiesTextureArraysWeaponize(....)
   //we will vhose between texture mapping techniques
   //or reflexion models types techniques zccordi'g to
   //some models.
+//to do it more quick, lets see the texture mappingd
+ //in full hemisphere. then a cheaper function could be done
+ //later. it seems that this will be linked to reflexion models.
+ //so, use an equation of movement to reject haskell transforms.
+ 
 }
 
 //college notes
