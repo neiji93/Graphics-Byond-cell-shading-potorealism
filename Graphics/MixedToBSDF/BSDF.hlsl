@@ -4,6 +4,10 @@
 //but it let me had an idea
 void similaritiesTextureArraysWeaponize(....)
 {
+
+  //we will vhose between texture mapping techniques
+  //or reflexion models types techniques zccordi'g to
+  //some models.
 }
 
 //college notes
