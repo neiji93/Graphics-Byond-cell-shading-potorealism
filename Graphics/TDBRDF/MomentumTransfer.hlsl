@@ -17,7 +17,7 @@ void hitchinTransfformsForRiemannSeries(...)
 
 }
 
-
+//we can use hitchin transforms several times here and in another folder because it prevent us using heat transfer !
 void cancelSVBRDFAlbedo(...)
 {
 
