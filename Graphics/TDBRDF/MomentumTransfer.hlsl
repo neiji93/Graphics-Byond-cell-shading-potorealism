@@ -16,3 +16,9 @@ void hitchinTransfformsForRiemannSeries(...)
  
 
 }
+
+
+void cancelSVBRDFAlbedo(...)
+{
+
+}
